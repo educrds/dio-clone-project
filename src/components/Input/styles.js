@@ -16,13 +16,17 @@ const ErrorMessage = styled.p`
 `;
 const IconContainer = styled.div`
   margin-right: 10px;
+  color: #7B4B99;
 `;
 const InputText = styled.input`
-  background-color: transparent;
-  color: #fefefe;
-  border: 0;
+  background: transparent;
+  border: none;
   width: 100%;
   height: 30px;
+
+  &:focus{
+    outline: none;
+  }
 `;
 
 export { InputContainer, IconContainer, InputText, ErrorMessage };
