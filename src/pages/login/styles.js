@@ -53,21 +53,21 @@ const SubTitleLogin = styled.p`
   margin-bottom: 35px;
   line-height: 25px;
 `;
-const TermsText = styled.p`
+const ForgotText = styled.p`
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 0.9rem;
-  color: #fefefe;
-`;
-const LoginText = styled.a`
-  font-family: "Open Sans";
-  margin: 1vh 0;
-  font-style: normal;
-  font-weight: 400;
+  font-size: 0.8rem;
   line-height: 19px;
-  color: rgba(35,221,122,1);
-  cursor:pointer;
+  color: #e5e044;
+`;
+const CreateText = styled.p`
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 19px;
+  color: #e23dd7;
 `;
 
 export {
@@ -75,8 +75,8 @@ export {
   Title,
   TitleLogin,
   SubTitleLogin,
-  TermsText,
-  LoginText,
+  ForgotText,
+  CreateText,
   Wrapper,
   Column,
   Row,

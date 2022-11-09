@@ -12,7 +12,6 @@ const Container = styled.main`
 `;
 
 const Title = styled.h2`
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
@@ -26,7 +25,6 @@ const TitleHighlight = styled.span`
   color: #e4105d;
 `;
 const TextContent = styled.p`
-  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
